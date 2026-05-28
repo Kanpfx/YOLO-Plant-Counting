@@ -1,0 +1,23 @@
+checkpoints/
+data/
+images/老师签名.jpg
+images/我签名.png
+images/高度泛化示例图.png
+
+result/
+参考材料/
+
+*.pdf
+*.typ
+*.bib
+gb-t-7714-2015-numeric-hit.csl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude config
+.claude/
+
+

@@ -1,0 +1,14 @@
+# 导出指令
+
+trtexec \
+  --onnx=models/p234_fp32_1024_b1.onnx \
+  --saveEngine=models/p234_fp16_1024_b1.engine \
+  --fp16 \
+  --profilingVerbosity=detailed \
+  --workspace=4096 \
+  --verbose
+
+
+trtexec \
+    --loadEngine=models/p234_fp16_1024_b1.engine \
+    --verbose
